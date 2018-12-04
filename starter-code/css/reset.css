@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+p {
+ margin: 0 0 1rem;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+/* Tables */
+table td {
+  font-size: 0.8rem;
+  padding: 0.1rem 0;
+  vertical-align: top;
+}

@@ -6,3 +6,108 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+main>header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  height: 90vh;
+  align-items: center;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: cover;
+}
+
+main header h1 {
+  font-size: 5rem;
+}
+.stage {
+  padding-left: 3rem;
+  padding-right:3rem;
+}
+.stage section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 30%;
+}
+
+.showroom {
+  color: #fff;
+  justify-content: flex-start;
+  background-color: #00B172;
+}
+
+.showroom header {
+  justify-content: left;
+}
+
+header {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  align-self: flex-start;
+  width: 200px;
+}
+
+header nav {
+  align-self: flex-end;
+}
+
+nav li a {
+  color: #999;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+nav li {
+  list-style: none;
+}
+
+h2 {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 2rem;
+  justify-content: center;
+  text-decoration: underline #00B172;
+}
+
+@media (min-width: 768px) {
+  header {
+    justify-content: center;
+  }
+}
+
+@media (min-width:1024px) {
+  header {
+    justify-content: space-between;
+  }
+  header img {
+    align-self: flex-start;
+  }
+  header nav {
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+  nav ul {
+    float: right;
+  }
+  nav li {
+    display: inline;
+  }
+}
