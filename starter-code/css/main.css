@@ -43,6 +43,25 @@ main header h1 {
   flex-wrap: nowrap;
   width: 30%;
 }
+.within-stage{
+  display:flex;
+  margin-top:2rem;
+}
+.within-stage section {
+  flex-direction: column;
+  flex: 1;
+}
+.within-stage h3{
+  justify-content: center;
+  color:#00B172;
+  font-size:1.8rem;
+}
+.within-stage p{
+  font-size: 1.2rem;
+}
+.within-stage img{
+  width:100px;
+}
 
 .showroom {
   color: #fff;
